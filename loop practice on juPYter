@@ -1,0 +1,567 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "afc481c9-0143-4981-94da-57fc82c6421e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Elizabeth,you are doing great\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Elizabeth,you are doing great\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "97a26a0d-3569-408f-a12c-176ddf01c5a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for b in range (1,6):\n",
+    "  print (b) "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "3c60bda7-7c98-4d8a-91a1-a80f5477c6d7",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "raw",
+   "id": "e5137378-adf7-4c35-8fdb-a94ff0ed9077",
+   "metadata": {},
+   "source": [
+    "for b in range (1,6)\n",
+    "    print(f\" this is loop {b})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "e7a89040-1611-4e68-b48a-c53ed8511ec7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " this is loop 1\n",
+      " this is loop 2\n",
+      " this is loop 3\n",
+      " this is loop 4\n",
+      " this is loop 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for b in range (1,6):\n",
+    "    print(f\" this is loop {b}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "07cec95b-4555-432a-a7ac-df5607274372",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number:  5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input(\"Enter a number: \"))\n",
+    "for b in range(1, n + 1):\n",
+    "    print(b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "68b43156-c28b-459e-9d28-240d7f0e8af7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a digit:  76\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input (\"enter a digit: \"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "6c2eeaa5-eb13-4806-820a-12c0f0468a62",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number:  8\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input(\"Enter a number: \"))\n",
+    "\n",
+    "for i in range(b,n+1):\n",
+    "    if i % 2 == 0:\n",
+    "        print(i, \"is even\")\n",
+    "    else:\n",
+    "        print(i, \"is odd\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "744ce4fa-f68b-46be-a1eb-bf2e6529112a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "odd number\n",
+      "even number\n",
+      "odd number\n",
+      "even number\n",
+      "odd number\n",
+      "even number\n",
+      "odd number\n",
+      "even number\n",
+      "odd number\n",
+      "even number\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "n\n",
+    "for b in range (1,11):\n",
+    "\n",
+    "    if b %2==0:\n",
+    "        print (\"even number\")\n",
+    "    else:\n",
+    "        print (\"odd number\")\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "239efa3e-98a1-4ff7-8fe3-1a5c7a30e79d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number or type 'exit ' to stop :  35\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered:  35\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number or type 'exit ' to stop :  45\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered:  45\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number or type 'exit ' to stop :  exit\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Goodbye !\n"
+     ]
+    }
+   ],
+   "source": [
+    "while True:\n",
+    "    user_input = input (\"Enter a number or type 'exit ' to stop : \")\n",
+    "    if user_input.lower() == \"exit\":\n",
+    "        print (\"Goodbye !\")\n",
+    "        break\n",
+    "\n",
+    "\n",
+    "    num = int(user_input )\n",
+    "    print (\"you entered: \",num)\n",
+    "    \n",
+    "              \n",
+    "     \n",
+    "       \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9be09d98-b511-4e3a-a676-3d1181c8f871",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "6c172ac9-0cd1-4739-aa9f-a6cbe2714b6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 25,25\n"
+     ]
+    },
+    {
+     "ename": "ValueError",
+     "evalue": "invalid literal for int() with base 10: '25,25'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[65], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m mins \u001b[38;5;241m=\u001b[39m\u001b[38;5;28mint\u001b[39m(\u001b[38;5;28minput\u001b[39m())\n\u001b[0;32m      2\u001b[0m texts \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mint\u001b[39m(\u001b[38;5;28minput\u001b[39m())\n\u001b[0;32m      4\u001b[0m extra_minutes \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mmax\u001b[39m(\u001b[38;5;241m0\u001b[39m, mins \u001b[38;5;241m-\u001b[39m \u001b[38;5;241m20\u001b[39m) \u001b[38;5;241m*\u001b[39m \u001b[38;5;241m3\u001b[39m\n",
+      "\u001b[1;31mValueError\u001b[0m: invalid literal for int() with base 10: '25,25'"
+     ]
+    }
+   ],
+   "source": [
+    "mins =int(input())\n",
+    "texts = int(input())\n",
+    "\n",
+    "extra_minutes = max(0, mins - 20) * 3\n",
+    "extra_texts = max(0, texts - 20) * 2\n",
+    "\n",
+    "subtotal = 50 + extra_minutes + extra_texts\n",
+    "total_bill = subtotal * 1.16\n",
+    "\n",
+    "print(round(total_bill, 2))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "145edb9f-990e-4850-b423-bbac651b960b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 45\n",
+      " 35\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "179.8\n"
+     ]
+    }
+   ],
+   "source": [
+    "mins =int(input())\n",
+    "texts = int(input())\n",
+    "\n",
+    "extra_minutes = max(0, mins - 20) * 3\n",
+    "extra_texts = max(0, texts - 20) * 2\n",
+    "\n",
+    "subtotal = 50 + extra_minutes + extra_texts\n",
+    "total_bill = subtotal * 1.16\n",
+    "\n",
+    "print(round(total_bill, 2))\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "04afd98d-e3e9-48d0-b2c8-e707fbefcb04",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter minutes used:  25\n",
+      "Enter texts used:  25\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Base Charge: Ksh 50.00\n",
+      "Extra Minutes Charge: Ksh 15\n",
+      "Extra Texts Charge: Ksh 10\n",
+      "VAT (16%): Ksh 12.0\n",
+      "Total Bill: Ksh 87.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "mins = int(input(\"Enter minutes used: \"))  \n",
+    "texts = int(input(\"Enter texts used: \"))  \n",
+    "\n",
+    "extra_minutes = max(0, mins - 20) * 3  \n",
+    "extra_texts = max(0, texts - 20) * 2  \n",
+    "\n",
+    "subtotal = 50 + extra_minutes + extra_texts  \n",
+    "total_bill = subtotal * 1.16  \n",
+    "\n",
+    "print(\"Base Charge: Ksh 50.00\")  \n",
+    "if extra_minutes > 0:\n",
+    "    print(\"Extra Minutes Charge: Ksh\", round(extra_minutes, 2))  \n",
+    "if extra_texts > 0:\n",
+    "    print(\"Extra Texts Charge: Ksh\", round(extra_texts, 2))  \n",
+    "\n",
+    "tax = subtotal * 0.16  \n",
+    "print(\"VAT (16%): Ksh\", round(tax, 2))  \n",
+    "print(\"Total Bill: Ksh\", round(total_bill, 2))  \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4f5290a7-4677-4669-82d1-ac1e9b6620cf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "b1cfc2e2-c4ac-4fbf-addc-dcf2445aedc3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi my name is Elizabeth\n"
+     ]
+    }
+   ],
+   "source": [
+    "def intro():\n",
+    "    print (\"Hi my name is Elizabeth\")\n",
+    "    \n",
+    "intro()\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3933a7bf-5d1a-4a11-ae0c-11c6f2ebf32f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "c5e195f9-b2af-44c5-b589-b8b3ceab5dbb",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (4189187968.py, line 14)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[91], line 14\u001b[1;36m\u001b[0m\n\u001b[1;33m    if  > 0:\u001b[0m\n\u001b[1;37m        ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "right_pin = \"1234\"\n",
+    "atm_pin = lambda pin: pin == correct_pin\n",
+    "\n",
+    "trys = 3\n",
+    "\n",
+    "while trys > 0:\n",
+    "    pin = input(\"Enter PIN number: \")\n",
+    "    \n",
+    "    if right_(pin):\n",
+    "        print(\"✅ Access Granted!\")\n",
+    "        break\n",
+    "    \n",
+    "    trys-= 1\n",
+    "    if  > 0:\n",
+    "        print(f\" Incorrect PIN! {try} trys left.\")\n",
+    "    else:\n",
+    "        print(\" locked out!\")\n"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "a026cfeb-0ab2-4bbe-9051-ce1cd61f983e",
+   "metadata": {},
+   "source": [
+    "number1 = input (int(\"Enter the 1st number : \"))\n",
+    "number2 = input (int(\"Enter the 2nd number :  \"))\n",
+    "number3 = input (int(\"Enter the 3rd number :  \")) \n",
+    "\n",
+    "total= number1 + number2 + number3\n",
+    "average = sum / 3\n",
+    "\n",
+    "print (\"sum\",total)\n",
+    "print(average ,round (average ,3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "82529f3c-243a-4bca-a953-6c39c0531943",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "invalid literal for int() with base 10: 'Enter the 1st number :  '",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[121], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m number1 \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m(\u001b[38;5;28mint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mEnter the 1st number :  \u001b[39m\u001b[38;5;124m\"\u001b[39m))\n\u001b[0;32m      2\u001b[0m number2 \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m(\u001b[38;5;28mint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mEnter the 2nd number :  \u001b[39m\u001b[38;5;124m\"\u001b[39m))\n\u001b[0;32m      3\u001b[0m number3 \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m(\u001b[38;5;28mint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mEnter the 3rd number :  \u001b[39m\u001b[38;5;124m\"\u001b[39m)) \n",
+      "\u001b[1;31mValueError\u001b[0m: invalid literal for int() with base 10: 'Enter the 1st number :  '"
+     ]
+    }
+   ],
+   "source": [
+    "number1 = input(int(\"Enter the 1st number :  \"))\n",
+    "number2 = input(int(\"Enter the 2nd number :  \"))\n",
+    "number3 = input(int(\"Enter the 3rd number :  \")) \n",
+    "\n",
+    "total= number1 + number2 + number3\n",
+    "average = total / 3\n",
+    "\n",
+    "print (\"sum :\",total)\n",
+    "print (\"Average :\" ,round (average , 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "88c5c742-a68c-4269-be40-fb11d94b540f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the 1st number:  1\n",
+      "Enter the 2nd number:  46\n",
+      "Enter the 3rd number:  30\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Sum: 77\n",
+      "Average: 25.67\n"
+     ]
+    }
+   ],
+   "source": [
+    "number1 = int(input(\"Enter the 1st number: \"))\n",
+    "number2 = int(input(\"Enter the 2nd number: \"))\n",
+    "number3 = int(input(\"Enter the 3rd number: \"))\n",
+    "\n",
+    "total = number1 + number2 + number3\n",
+    "average = total / 3\n",
+    "\n",
+    "print(\"Sum:\", total)\n",
+    "print(\"Average:\", round(average, 2))\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
